@@ -50,7 +50,7 @@ class MapWithMarkerAndSearch extends Component {
       <div style={{ height: "100vh", width: "100%" }}>
 
         <PlacesAutocomplete
-          bootstrapURLKeys="AIzaSyDXAmylv9XMGd6W-rC-vfG0ayeBDQm6Q3M"
+          bootstrapURLKeys="YOUR KEY"
           value={this.state.address}
           onChange={(address) => this.setState({ address })}
           onSelect={this.handleSelect}
